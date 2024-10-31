@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.nav{
+    width: 100%;
+    height: 70px;
+    background-color:#272C3D;
+    box-shadow: 0px 0px 10px 10px #00000080;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav ul li:hover{
+    transition: all 1s;
+    color: #FF9C28;
+}
+
+form input{
+    width: 240px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #404864;
+    border: none;
+}
+
+form{
+    display: flex;
+    align-items: center;
+}
+
+.nav svg{
+    position: relative;
+    right: 40px;
+}
+
+select{
+    width: 165px;
+    height: 30px;
+    background-color: black;
+    color: white;
+
+    font-family: "Quantico", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px;
+}
+
+.bg{
+    background-image: url(img/Bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 554px;
+}
+
+h1{
+    font-family: "Quantico", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45.76px;
+    text-align: center;
+    padding-top: 21px;
+    color: white;
+}
+
+.style{
+    background-color: black;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.child{
+    box-shadow: 0px 0px 20px 0px #00000080;
+}
+
+.parent{
+    background-color: #1B1E27;
+    width: 1189px;
+    height: 928px;
+    margin: 30px auto; 
+}
+
+.baby{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+    color: white;
+    padding-bottom: 160px;
+    position: relative;
+    top: 120px;
+}
+
+.img h2{
+    font-family: "Quantico", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.32px;
+    position: relative;
+    bottom: 30px;
+}
+
+.baby p{
+    position: relative;
+    top: 15px;
+}
+
+
+
+.parent p{
+    font-family: "Quantico", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px;
+    color: #BFBFBF;
+}
+
+.foot{
+    width: 100%;
+    height: 70px;
+    background-color:  #272C3D;
+    box-shadow: 0px 0px 10px 10px #00000080;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+
+.foot{
+    padding-left: 47px;
+}
+
+.logo ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-right: 47px;
+    color: white;
+}
+
+.logo ul:hover{
+    color: #FF9C28;
+    transition: all 1s;
+}
